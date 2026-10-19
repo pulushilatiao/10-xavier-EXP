@@ -1,0 +1,110 @@
+Images: 24
+Postprocess repeats: 10
+Confidence: 0.001
+NMS IoU: 0.7
+MAX_DET: 300
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=10.503ms
+Collect 2/24 IMG_7317.jpg gpu=10.515ms
+Collect 3/24 IMG_7319.jpg gpu=10.006ms
+Collect 4/24 IMG_7320.jpg gpu=9.531ms
+Collect 5/24 IMG_7328.jpg gpu=9.564ms
+Collect 6/24 IMG_7330.jpg gpu=9.549ms
+Collect 7/24 IMG_7348.jpg gpu=9.549ms
+Collect 8/24 IMG_7350.jpg gpu=9.557ms
+Collect 9/24 IMG_7352.jpg gpu=9.538ms
+Collect 10/24 IMG_7353.jpg gpu=9.575ms
+Collect 11/24 IMG_7354.jpg gpu=9.592ms
+Collect 12/24 IMG_7355.jpg gpu=13.780ms
+Collect 13/24 IMG_7356.jpg gpu=16.781ms
+Collect 14/24 IMG_7357.jpg gpu=16.747ms
+Collect 15/24 IMG_7388.jpg gpu=16.803ms
+Collect 16/24 IMG_7408.jpg gpu=16.790ms
+Collect 17/24 IMG_7410.jpg gpu=16.813ms
+Collect 18/24 IMG_7419.jpg gpu=16.801ms
+Collect 19/24 IMG_7432.jpg gpu=16.814ms
+Collect 20/24 IMG_7435.jpg gpu=16.813ms
+Collect 21/24 IMG_7436.jpg gpu=16.864ms
+Collect 22/24 IMG_7448.jpg gpu=16.844ms
+Collect 23/24 IMG_7452.jpg gpu=21.888ms
+Collect 24/24 IMG_7454.jpg gpu=21.916ms
+PASS: E0 matches original postprocess for all images
+GT objects: 170
+
+FP16 / E0 (Top-K=None)
+mAP50=0.8971, mAP50:95=0.6509, NMS=4.864ms, TopK=0.124ms, Post=6.740ms
+
+FP16 / E1-A (Top-K=1000)
+mAP50=0.8971, mAP50:95=0.6509, NMS=4.675ms, TopK=0.136ms, Post=6.459ms
+
+FP16 / E1-B (Top-K=500)
+mAP50=0.8971, mAP50:95=0.6509, NMS=3.103ms, TopK=0.197ms, Post=4.852ms
+
+FP16 / E1-C (Top-K=200)
+mAP50=0.8973, mAP50:95=0.6514, NMS=1.418ms, TopK=0.238ms, Post=3.086ms
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=49.821ms
+Collect 2/24 IMG_7317.jpg gpu=49.812ms
+Collect 3/24 IMG_7319.jpg gpu=28.549ms
+Collect 4/24 IMG_7320.jpg gpu=28.531ms
+Collect 5/24 IMG_7328.jpg gpu=28.386ms
+Collect 6/24 IMG_7330.jpg gpu=29.136ms
+Collect 7/24 IMG_7348.jpg gpu=19.870ms
+Collect 8/24 IMG_7350.jpg gpu=19.908ms
+Collect 9/24 IMG_7352.jpg gpu=19.995ms
+Collect 10/24 IMG_7353.jpg gpu=19.907ms
+Collect 11/24 IMG_7354.jpg gpu=19.929ms
+Collect 12/24 IMG_7355.jpg gpu=19.876ms
+Collect 13/24 IMG_7356.jpg gpu=19.828ms
+Collect 14/24 IMG_7357.jpg gpu=19.916ms
+Collect 15/24 IMG_7388.jpg gpu=19.936ms
+Collect 16/24 IMG_7408.jpg gpu=19.945ms
+Collect 17/24 IMG_7410.jpg gpu=19.821ms
+Collect 18/24 IMG_7419.jpg gpu=19.923ms
+Collect 19/24 IMG_7432.jpg gpu=19.853ms
+Collect 20/24 IMG_7435.jpg gpu=19.872ms
+Collect 21/24 IMG_7436.jpg gpu=19.897ms
+Collect 22/24 IMG_7448.jpg gpu=19.886ms
+Collect 23/24 IMG_7452.jpg gpu=19.917ms
+Collect 24/24 IMG_7454.jpg gpu=19.811ms
+PASS: E0 matches original postprocess for all images
+GT objects: 170
+
+INT8 / E0 (Top-K=None)
+mAP50=0.8752, mAP50:95=0.6338, NMS=2.949ms, TopK=0.122ms, Post=4.512ms
+
+INT8 / E1-A (Top-K=1000)
+mAP50=0.8752, mAP50:95=0.6338, NMS=2.901ms, TopK=0.118ms, Post=4.440ms
+
+INT8 / E1-B (Top-K=500)
+mAP50=0.8752, mAP50:95=0.6338, NMS=2.569ms, TopK=0.149ms, Post=4.122ms
+
+INT8 / E1-C (Top-K=200)
+mAP50=0.8754, mAP50:95=0.6345, NMS=1.354ms, TopK=0.221ms, Post=2.939ms
+
+========================================================================
+E0 / E1 RESULTS
+========================================================================
+FP16  E0    K=unlimited mAP50=0.8971 mAP50:95=0.6509 Loss=+0.000pp NMS=4.864ms Post=6.740ms Speedup=1.00x
+FP16  E1-A  K=1000      mAP50=0.8971 mAP50:95=0.6509 Loss=+0.000pp NMS=4.675ms Post=6.459ms Speedup=1.04x
+FP16  E1-B  K=500       mAP50=0.8971 mAP50:95=0.6509 Loss=+0.000pp NMS=3.103ms Post=4.852ms Speedup=1.39x
+FP16  E1-C  K=200       mAP50=0.8973 mAP50:95=0.6514 Loss=-0.049pp NMS=1.418ms Post=3.086ms Speedup=2.18x
+INT8  E0    K=unlimited mAP50=0.8752 mAP50:95=0.6338 Loss=+0.000pp NMS=2.949ms Post=4.512ms Speedup=1.00x
+INT8  E1-A  K=1000      mAP50=0.8752 mAP50:95=0.6338 Loss=+0.000pp NMS=2.901ms Post=4.440ms Speedup=1.02x
+INT8  E1-B  K=500       mAP50=0.8752 mAP50:95=0.6338 Loss=-0.000pp NMS=2.569ms Post=4.122ms Speedup=1.09x
+INT8  E1-C  K=200       mAP50=0.8754 mAP50:95=0.6345 Loss=-0.070pp NMS=1.354ms Post=2.939ms Speedup=1.54x
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E1_topk_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E1_topk_results.csv

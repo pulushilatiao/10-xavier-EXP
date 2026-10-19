@@ -1,0 +1,79 @@
+
+Collecting: FP16
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=10.022ms
+Collect 2/5 IMG_7317.jpg gpu=9.980ms
+Collect 3/5 IMG_7319.jpg gpu=9.624ms
+Collect 4/5 IMG_7320.jpg gpu=9.522ms
+Collect 5/5 IMG_7328.jpg gpu=9.517ms
+PASS: E0 matches original postprocess for all images
+PASS: M=0 equals E1-C; M=200 equals E2-C
+
+FP16 / E1-C M=0
+mAP50=0.8034 mAP50:95=0.6356 Post=3.630ms
+
+FP16 / E3-A M=30
+mAP50=0.8242 mAP50:95=0.6642 Post=23.620ms
+
+FP16 / E3-B M=60
+mAP50=0.8243 mAP50:95=0.6647 Post=30.276ms
+
+FP16 / E3-C M=100
+mAP50=0.8244 mAP50:95=0.6647 Post=31.427ms
+
+FP16 / E2-C M=200
+mAP50=0.8244 mAP50:95=0.6647 Post=31.089ms
+
+Collecting: INT8
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=8.127ms
+Collect 2/5 IMG_7317.jpg gpu=8.085ms
+Collect 3/5 IMG_7319.jpg gpu=7.886ms
+Collect 4/5 IMG_7320.jpg gpu=7.584ms
+Collect 5/5 IMG_7328.jpg gpu=7.547ms
+PASS: E0 matches original postprocess for all images
+PASS: M=0 equals E1-C; M=200 equals E2-C
+
+INT8 / E1-C M=0
+mAP50=0.8348 mAP50:95=0.6640 Post=3.561ms
+
+INT8 / E3-A M=30
+mAP50=0.8415 mAP50:95=0.6771 Post=23.176ms
+
+INT8 / E3-B M=60
+mAP50=0.8417 mAP50:95=0.6778 Post=27.549ms
+
+INT8 / E3-C M=100
+mAP50=0.8417 mAP50:95=0.6778 Post=27.665ms
+
+INT8 / E2-C M=200
+mAP50=0.8417 mAP50:95=0.6778 Post=28.262ms
+
+=================================================================
+E3 FINAL RESULTS
+=================================================================
+FP16  E1-C  M=0   mAP50:95=0.6356 Post=3.630ms
+FP16  E3-A  M=30  mAP50:95=0.6642 Post=23.620ms
+FP16  E3-B  M=60  mAP50:95=0.6647 Post=30.276ms
+FP16  E3-C  M=100 mAP50:95=0.6647 Post=31.427ms
+FP16  E2-C  M=200 mAP50:95=0.6647 Post=31.089ms
+INT8  E1-C  M=0   mAP50:95=0.6640 Post=3.561ms
+INT8  E3-A  M=30  mAP50:95=0.6771 Post=23.176ms
+INT8  E3-B  M=60  mAP50:95=0.6778 Post=27.549ms
+INT8  E3-C  M=100 mAP50:95=0.6778 Post=27.665ms
+INT8  E2-C  M=200 mAP50:95=0.6778 Post=28.262ms
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E3_budgeted_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E3_budgeted_results.csv

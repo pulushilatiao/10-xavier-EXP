@@ -1,0 +1,69 @@
+OpenCV: 4.5.4-dev
+Images: 5
+Repeats: 1
+Sigma: 0.5
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=10.092ms
+Collect 2/5 IMG_7317.jpg gpu=10.010ms
+Collect 3/5 IMG_7319.jpg gpu=9.522ms
+Collect 4/5 IMG_7320.jpg gpu=9.668ms
+Collect 5/5 IMG_7328.jpg gpu=9.510ms
+PASS: E0 matches original postprocess for all images
+
+Running FP16 E1-C
+mAP50=0.8034 mAP50:95=0.6356 NMS=1.586ms Post=3.666ms
+
+Running FP16 E2-C
+mAP50=0.8244 mAP50:95=0.6647 NMS=28.360ms Post=30.240ms
+
+Running FP16 E4-A
+mAP50=0.8249 mAP50:95=0.6644 NMS=33.979ms Post=35.976ms
+
+Running FP16 E4-B
+mAP50=0.8244 mAP50:95=0.6638 NMS=5.638ms Post=7.232ms
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=9.255ms
+Collect 2/5 IMG_7317.jpg gpu=7.750ms
+Collect 3/5 IMG_7319.jpg gpu=7.558ms
+Collect 4/5 IMG_7320.jpg gpu=7.553ms
+Collect 5/5 IMG_7328.jpg gpu=7.503ms
+PASS: E0 matches original postprocess for all images
+
+Running INT8 E1-C
+mAP50=0.8348 mAP50:95=0.6640 NMS=1.482ms Post=3.294ms
+
+Running INT8 E2-C
+mAP50=0.8417 mAP50:95=0.6778 NMS=25.434ms Post=27.208ms
+
+Running INT8 E4-A
+mAP50=0.8417 mAP50:95=0.6779 NMS=2.478ms Post=4.035ms
+
+Running INT8 E4-B
+mAP50=0.8414 mAP50:95=0.6775 NMS=3.747ms Post=5.198ms
+
+==================================================================
+E4 FINAL RESULTS
+==================================================================
+FP16  E1-C  mAP50:95=0.6356 NMS=1.586ms Post=3.666ms
+FP16  E2-C  mAP50:95=0.6647 NMS=28.360ms Post=30.240ms
+FP16  E4-A  mAP50:95=0.6644 NMS=33.979ms Post=35.976ms
+FP16  E4-B  mAP50:95=0.6638 NMS=5.638ms Post=7.232ms
+INT8  E1-C  mAP50:95=0.6640 NMS=1.482ms Post=3.294ms
+INT8  E2-C  mAP50:95=0.6778 NMS=25.434ms Post=27.208ms
+INT8  E4-A  mAP50:95=0.6779 NMS=2.478ms Post=4.035ms
+INT8  E4-B  mAP50:95=0.6775 NMS=3.747ms Post=5.198ms
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E4_opencv_softnms.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E4_opencv_softnms.csv

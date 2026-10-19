@@ -1,0 +1,76 @@
+Validation images: 5
+Postprocess repeats: 1
+Soft-NMS sigma: 0.5
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=14.510ms
+Collect 2/5 IMG_7317.jpg gpu=12.579ms
+Collect 3/5 IMG_7319.jpg gpu=12.118ms
+Collect 4/5 IMG_7320.jpg gpu=12.104ms
+Collect 5/5 IMG_7328.jpg gpu=12.063ms
+PASS: E0 matches original postprocess for all images
+
+Running FP16 / E0
+mAP50=0.8036  mAP50:95=0.6351  NMS=4.390ms  Post=7.253ms  Elapsed=2.1s
+
+Running FP16 / E1-C
+mAP50=0.8034  mAP50:95=0.6356  NMS=1.578ms  Post=4.109ms  Elapsed=1.1s
+
+Running FP16 / E2-A
+mAP50=0.8064  mAP50:95=0.6487  NMS=133.263ms  Post=135.518ms  Elapsed=2.4s
+
+Running FP16 / E2-B
+mAP50=0.8239  mAP50:95=0.6641  NMS=48.280ms  Post=50.355ms  Elapsed=1.2s
+
+Running FP16 / E2-C
+mAP50=0.8244  mAP50:95=0.6647  NMS=29.766ms  Post=31.902ms  Elapsed=0.8s
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=9.180ms
+Collect 2/5 IMG_7317.jpg gpu=9.110ms
+Collect 3/5 IMG_7319.jpg gpu=8.819ms
+Collect 4/5 IMG_7320.jpg gpu=8.731ms
+Collect 5/5 IMG_7328.jpg gpu=8.798ms
+PASS: E0 matches original postprocess for all images
+
+Running INT8 / E0
+mAP50=0.8344  mAP50:95=0.6643  NMS=2.987ms  Post=5.023ms  Elapsed=1.6s
+
+Running INT8 / E1-C
+mAP50=0.8348  mAP50:95=0.6640  NMS=1.475ms  Post=3.481ms  Elapsed=1.0s
+
+Running INT8 / E2-A
+mAP50=0.8356  mAP50:95=0.6721  NMS=103.175ms  Post=105.165ms  Elapsed=2.2s
+
+Running INT8 / E2-B
+mAP50=0.8415  mAP50:95=0.6773  NMS=32.460ms  Post=34.416ms  Elapsed=0.9s
+
+Running INT8 / E2-C
+mAP50=0.8417  mAP50:95=0.6778  NMS=26.583ms  Post=28.676ms  Elapsed=0.7s
+
+============================================================================
+E2 FINAL RESULTS
+============================================================================
+FP16  E0    mAP50=0.8036 mAP50:95=0.6351 NMS=4.390ms Post=7.253ms Wall=2.1s
+FP16  E1-C  mAP50=0.8034 mAP50:95=0.6356 NMS=1.578ms Post=4.109ms Wall=1.1s
+FP16  E2-A  mAP50=0.8064 mAP50:95=0.6487 NMS=133.263ms Post=135.518ms Wall=2.4s
+FP16  E2-B  mAP50=0.8239 mAP50:95=0.6641 NMS=48.280ms Post=50.355ms Wall=1.2s
+FP16  E2-C  mAP50=0.8244 mAP50:95=0.6647 NMS=29.766ms Post=31.902ms Wall=0.8s
+INT8  E0    mAP50=0.8344 mAP50:95=0.6643 NMS=2.987ms Post=5.023ms Wall=1.6s
+INT8  E1-C  mAP50=0.8348 mAP50:95=0.6640 NMS=1.475ms Post=3.481ms Wall=1.0s
+INT8  E2-A  mAP50=0.8356 mAP50:95=0.6721 NMS=103.175ms Post=105.165ms Wall=2.2s
+INT8  E2-B  mAP50=0.8415 mAP50:95=0.6773 NMS=32.460ms Post=34.416ms Wall=0.9s
+INT8  E2-C  mAP50=0.8417 mAP50:95=0.6778 NMS=26.583ms Post=28.676ms Wall=0.7s
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E2_softnms_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E2_softnms_results.csv
