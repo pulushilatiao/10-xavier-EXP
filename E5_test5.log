@@ -1,0 +1,136 @@
+OpenCV: 4.5.4-dev
+Images: 5
+Repeats: 1
+Mode: both
+CONF: 0.001
+NMS_IOU: 0.7
+SIGMA: 0.5
+
+============================================================
+Collecting TensorRT outputs: FP16
+============================================================
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=10.505ms
+Collect 2/5 IMG_7317.jpg gpu=10.439ms
+Collect 3/5 IMG_7319.jpg gpu=10.514ms
+Collect 4/5 IMG_7320.jpg gpu=10.422ms
+Collect 5/5 IMG_7328.jpg gpu=10.527ms
+PASS: E0 matches original postprocess for all images
+
+Running E5-A K=unlimited MAX_DET=300
+mAP50=0.8244 mAP50:95=0.6638 NMS=6.569ms Post=9.158ms Capped=0/5
+
+Running E5-A K=50 MAX_DET=300
+mAP50=0.8276 mAP50:95=0.6691 NMS=1.379ms Post=4.138ms Capped=0/5
+
+Running E5-A K=100 MAX_DET=300
+mAP50=0.8256 mAP50:95=0.6660 NMS=1.552ms Post=3.834ms Capped=0/5
+
+Running E5-A K=150 MAX_DET=300
+mAP50=0.8252 mAP50:95=0.6649 NMS=2.159ms Post=4.415ms Capped=0/5
+
+Running E5-A K=200 MAX_DET=300
+mAP50=0.8249 mAP50:95=0.6644 NMS=2.666ms Post=4.751ms Capped=0/5
+
+Running E5-A K=300 MAX_DET=300
+mAP50=0.8246 mAP50:95=0.6640 NMS=3.731ms Post=5.772ms Capped=0/5
+
+Running E5-A K=500 MAX_DET=300
+mAP50=0.8245 mAP50:95=0.6638 NMS=5.219ms Post=7.201ms Capped=0/5
+
+Running E5-B K=200 MAX_DET=300
+mAP50=0.8249 mAP50:95=0.6644 NMS=2.653ms Post=4.637ms Capped=0/5
+
+Running E5-B K=200 MAX_DET=1000
+mAP50=0.8249 mAP50:95=0.6644 NMS=2.635ms Post=4.620ms Capped=0/5
+
+Running E5-B K=unlimited MAX_DET=300
+mAP50=0.8244 mAP50:95=0.6638 NMS=6.503ms Post=8.342ms Capped=0/5
+
+Running E5-B K=unlimited MAX_DET=1000
+mAP50=0.8244 mAP50:95=0.6638 NMS=6.502ms Post=8.417ms Capped=0/5
+
+============================================================
+Collecting TensorRT outputs: INT8
+============================================================
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=9.683ms
+Collect 2/5 IMG_7317.jpg gpu=9.533ms
+Collect 3/5 IMG_7319.jpg gpu=9.642ms
+Collect 4/5 IMG_7320.jpg gpu=9.690ms
+Collect 5/5 IMG_7328.jpg gpu=9.523ms
+PASS: E0 matches original postprocess for all images
+
+Running E5-A K=unlimited MAX_DET=300
+mAP50=0.8414 mAP50:95=0.6775 NMS=4.778ms Post=6.999ms Capped=0/5
+
+Running E5-A K=50 MAX_DET=300
+mAP50=0.8448 mAP50:95=0.6825 NMS=1.090ms Post=3.365ms Capped=0/5
+
+Running E5-A K=100 MAX_DET=300
+mAP50=0.8423 mAP50:95=0.6794 NMS=1.527ms Post=3.478ms Capped=0/5
+
+Running E5-A K=150 MAX_DET=300
+mAP50=0.8419 mAP50:95=0.6783 NMS=2.059ms Post=4.007ms Capped=0/5
+
+Running E5-A K=200 MAX_DET=300
+mAP50=0.8417 mAP50:95=0.6779 NMS=2.402ms Post=4.331ms Capped=0/5
+
+Running E5-A K=300 MAX_DET=300
+mAP50=0.8415 mAP50:95=0.6776 NMS=3.123ms Post=5.032ms Capped=0/5
+
+Running E5-A K=500 MAX_DET=300
+mAP50=0.8415 mAP50:95=0.6775 NMS=3.938ms Post=5.762ms Capped=0/5
+
+Running E5-B K=200 MAX_DET=300
+mAP50=0.8417 mAP50:95=0.6779 NMS=2.392ms Post=4.318ms Capped=0/5
+
+Running E5-B K=200 MAX_DET=1000
+mAP50=0.8417 mAP50:95=0.6779 NMS=2.426ms Post=4.288ms Capped=0/5
+
+Running E5-B K=unlimited MAX_DET=300
+mAP50=0.8414 mAP50:95=0.6775 NMS=4.074ms Post=5.902ms Capped=0/5
+
+Running E5-B K=unlimited MAX_DET=1000
+mAP50=0.8414 mAP50:95=0.6775 NMS=4.065ms Post=5.841ms Capped=0/5
+
+========================================================================
+E5 FINAL RESULTS
+========================================================================
+FP16  E5-A  K=unlimited MAX_DET=300  mAP50=0.8244 mAP50:95=0.6638 NMS=6.569ms Post=9.158ms
+FP16  E5-A  K=50        MAX_DET=300  mAP50=0.8276 mAP50:95=0.6691 NMS=1.379ms Post=4.138ms
+FP16  E5-A  K=100       MAX_DET=300  mAP50=0.8256 mAP50:95=0.6660 NMS=1.552ms Post=3.834ms
+FP16  E5-A  K=150       MAX_DET=300  mAP50=0.8252 mAP50:95=0.6649 NMS=2.159ms Post=4.415ms
+FP16  E5-A  K=200       MAX_DET=300  mAP50=0.8249 mAP50:95=0.6644 NMS=2.666ms Post=4.751ms
+FP16  E5-A  K=300       MAX_DET=300  mAP50=0.8246 mAP50:95=0.6640 NMS=3.731ms Post=5.772ms
+FP16  E5-A  K=500       MAX_DET=300  mAP50=0.8245 mAP50:95=0.6638 NMS=5.219ms Post=7.201ms
+FP16  E5-B  K=200       MAX_DET=300  mAP50=0.8249 mAP50:95=0.6644 NMS=2.653ms Post=4.637ms
+FP16  E5-B  K=200       MAX_DET=1000 mAP50=0.8249 mAP50:95=0.6644 NMS=2.635ms Post=4.620ms
+FP16  E5-B  K=unlimited MAX_DET=300  mAP50=0.8244 mAP50:95=0.6638 NMS=6.503ms Post=8.342ms
+FP16  E5-B  K=unlimited MAX_DET=1000 mAP50=0.8244 mAP50:95=0.6638 NMS=6.502ms Post=8.417ms
+INT8  E5-A  K=unlimited MAX_DET=300  mAP50=0.8414 mAP50:95=0.6775 NMS=4.778ms Post=6.999ms
+INT8  E5-A  K=50        MAX_DET=300  mAP50=0.8448 mAP50:95=0.6825 NMS=1.090ms Post=3.365ms
+INT8  E5-A  K=100       MAX_DET=300  mAP50=0.8423 mAP50:95=0.6794 NMS=1.527ms Post=3.478ms
+INT8  E5-A  K=150       MAX_DET=300  mAP50=0.8419 mAP50:95=0.6783 NMS=2.059ms Post=4.007ms
+INT8  E5-A  K=200       MAX_DET=300  mAP50=0.8417 mAP50:95=0.6779 NMS=2.402ms Post=4.331ms
+INT8  E5-A  K=300       MAX_DET=300  mAP50=0.8415 mAP50:95=0.6776 NMS=3.123ms Post=5.032ms
+INT8  E5-A  K=500       MAX_DET=300  mAP50=0.8415 mAP50:95=0.6775 NMS=3.938ms Post=5.762ms
+INT8  E5-B  K=200       MAX_DET=300  mAP50=0.8417 mAP50:95=0.6779 NMS=2.392ms Post=4.318ms
+INT8  E5-B  K=200       MAX_DET=1000 mAP50=0.8417 mAP50:95=0.6779 NMS=2.426ms Post=4.288ms
+INT8  E5-B  K=unlimited MAX_DET=300  mAP50=0.8414 mAP50:95=0.6775 NMS=4.074ms Post=5.902ms
+INT8  E5-B  K=unlimited MAX_DET=1000 mAP50=0.8414 mAP50:95=0.6775 NMS=4.065ms Post=5.841ms
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E5_sensitivity_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E5_sensitivity_results.csv

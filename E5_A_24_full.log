@@ -1,0 +1,142 @@
+OpenCV: 4.5.4-dev
+Images: 24
+Repeats: 5
+Mode: A
+CONF: 0.001
+NMS_IOU: 0.7
+SIGMA: 0.5
+
+============================================================
+Collecting TensorRT outputs: FP16
+============================================================
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=31.645ms
+Collect 2/24 IMG_7317.jpg gpu=31.501ms
+Collect 3/24 IMG_7319.jpg gpu=31.519ms
+Collect 4/24 IMG_7320.jpg gpu=31.542ms
+Collect 5/24 IMG_7328.jpg gpu=21.839ms
+Collect 6/24 IMG_7330.jpg gpu=21.870ms
+Collect 7/24 IMG_7348.jpg gpu=22.038ms
+Collect 8/24 IMG_7350.jpg gpu=21.942ms
+Collect 9/24 IMG_7352.jpg gpu=21.900ms
+Collect 10/24 IMG_7353.jpg gpu=21.950ms
+Collect 11/24 IMG_7354.jpg gpu=21.993ms
+Collect 12/24 IMG_7355.jpg gpu=21.942ms
+Collect 13/24 IMG_7356.jpg gpu=21.834ms
+Collect 14/24 IMG_7357.jpg gpu=21.884ms
+Collect 15/24 IMG_7388.jpg gpu=21.919ms
+Collect 16/24 IMG_7408.jpg gpu=21.991ms
+Collect 17/24 IMG_7410.jpg gpu=21.973ms
+Collect 18/24 IMG_7419.jpg gpu=21.893ms
+Collect 19/24 IMG_7432.jpg gpu=21.915ms
+Collect 20/24 IMG_7435.jpg gpu=21.962ms
+Collect 21/24 IMG_7436.jpg gpu=21.899ms
+Collect 22/24 IMG_7448.jpg gpu=22.019ms
+Collect 23/24 IMG_7452.jpg gpu=21.899ms
+Collect 24/24 IMG_7454.jpg gpu=21.920ms
+PASS: E0 matches original postprocess for all images
+
+Running E5-A K=unlimited MAX_DET=300
+mAP50=0.9040 mAP50:95=0.6576 NMS=5.527ms Post=7.267ms Capped=1/24
+
+Running E5-A K=50 MAX_DET=300
+mAP50=0.9052 mAP50:95=0.6633 NMS=0.797ms Post=2.493ms Capped=0/24
+
+Running E5-A K=100 MAX_DET=300
+mAP50=0.9049 mAP50:95=0.6602 NMS=1.161ms Post=2.838ms Capped=0/24
+
+Running E5-A K=150 MAX_DET=300
+mAP50=0.9045 mAP50:95=0.6589 NMS=1.599ms Post=3.282ms Capped=0/24
+
+Running E5-A K=200 MAX_DET=300
+mAP50=0.9043 mAP50:95=0.6583 NMS=2.033ms Post=3.702ms Capped=0/24
+
+Running E5-A K=300 MAX_DET=300
+mAP50=0.9041 mAP50:95=0.6579 NMS=2.755ms Post=4.400ms Capped=0/24
+
+Running E5-A K=500 MAX_DET=300
+mAP50=0.9040 mAP50:95=0.6577 NMS=3.868ms Post=5.504ms Capped=1/24
+
+============================================================
+Collecting TensorRT outputs: INT8
+============================================================
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=12.486ms
+Collect 2/24 IMG_7317.jpg gpu=10.815ms
+Collect 3/24 IMG_7319.jpg gpu=10.910ms
+Collect 4/24 IMG_7320.jpg gpu=9.615ms
+Collect 5/24 IMG_7328.jpg gpu=9.553ms
+Collect 6/24 IMG_7330.jpg gpu=9.597ms
+Collect 7/24 IMG_7348.jpg gpu=9.577ms
+Collect 8/24 IMG_7350.jpg gpu=9.608ms
+Collect 9/24 IMG_7352.jpg gpu=9.604ms
+Collect 10/24 IMG_7353.jpg gpu=9.558ms
+Collect 11/24 IMG_7354.jpg gpu=9.602ms
+Collect 12/24 IMG_7355.jpg gpu=9.568ms
+Collect 13/24 IMG_7356.jpg gpu=9.563ms
+Collect 14/24 IMG_7357.jpg gpu=9.636ms
+Collect 15/24 IMG_7388.jpg gpu=9.568ms
+Collect 16/24 IMG_7408.jpg gpu=9.636ms
+Collect 17/24 IMG_7410.jpg gpu=12.505ms
+Collect 18/24 IMG_7419.jpg gpu=15.266ms
+Collect 19/24 IMG_7432.jpg gpu=15.200ms
+Collect 20/24 IMG_7435.jpg gpu=15.284ms
+Collect 21/24 IMG_7436.jpg gpu=15.300ms
+Collect 22/24 IMG_7448.jpg gpu=15.396ms
+Collect 23/24 IMG_7452.jpg gpu=15.283ms
+Collect 24/24 IMG_7454.jpg gpu=15.291ms
+PASS: E0 matches original postprocess for all images
+
+Running E5-A K=unlimited MAX_DET=300
+mAP50=0.8760 mAP50:95=0.6359 NMS=3.096ms Post=4.560ms Capped=0/24
+
+Running E5-A K=50 MAX_DET=300
+mAP50=0.8753 mAP50:95=0.6405 NMS=0.772ms Post=2.329ms Capped=0/24
+
+Running E5-A K=100 MAX_DET=300
+mAP50=0.8766 mAP50:95=0.6384 NMS=1.130ms Post=2.679ms Capped=0/24
+
+Running E5-A K=150 MAX_DET=300
+mAP50=0.8763 mAP50:95=0.6370 NMS=1.544ms Post=3.106ms Capped=0/24
+
+Running E5-A K=200 MAX_DET=300
+mAP50=0.8762 mAP50:95=0.6365 NMS=1.867ms Post=3.397ms Capped=0/24
+
+Running E5-A K=300 MAX_DET=300
+mAP50=0.8760 mAP50:95=0.6361 NMS=2.313ms Post=3.818ms Capped=0/24
+
+Running E5-A K=500 MAX_DET=300
+mAP50=0.8760 mAP50:95=0.6359 NMS=2.914ms Post=4.425ms Capped=0/24
+
+========================================================================
+E5 FINAL RESULTS
+========================================================================
+FP16  E5-A  K=unlimited MAX_DET=300  mAP50=0.9040 mAP50:95=0.6576 NMS=5.527ms Post=7.267ms
+FP16  E5-A  K=50        MAX_DET=300  mAP50=0.9052 mAP50:95=0.6633 NMS=0.797ms Post=2.493ms
+FP16  E5-A  K=100       MAX_DET=300  mAP50=0.9049 mAP50:95=0.6602 NMS=1.161ms Post=2.838ms
+FP16  E5-A  K=150       MAX_DET=300  mAP50=0.9045 mAP50:95=0.6589 NMS=1.599ms Post=3.282ms
+FP16  E5-A  K=200       MAX_DET=300  mAP50=0.9043 mAP50:95=0.6583 NMS=2.033ms Post=3.702ms
+FP16  E5-A  K=300       MAX_DET=300  mAP50=0.9041 mAP50:95=0.6579 NMS=2.755ms Post=4.400ms
+FP16  E5-A  K=500       MAX_DET=300  mAP50=0.9040 mAP50:95=0.6577 NMS=3.868ms Post=5.504ms
+INT8  E5-A  K=unlimited MAX_DET=300  mAP50=0.8760 mAP50:95=0.6359 NMS=3.096ms Post=4.560ms
+INT8  E5-A  K=50        MAX_DET=300  mAP50=0.8753 mAP50:95=0.6405 NMS=0.772ms Post=2.329ms
+INT8  E5-A  K=100       MAX_DET=300  mAP50=0.8766 mAP50:95=0.6384 NMS=1.130ms Post=2.679ms
+INT8  E5-A  K=150       MAX_DET=300  mAP50=0.8763 mAP50:95=0.6370 NMS=1.544ms Post=3.106ms
+INT8  E5-A  K=200       MAX_DET=300  mAP50=0.8762 mAP50:95=0.6365 NMS=1.867ms Post=3.397ms
+INT8  E5-A  K=300       MAX_DET=300  mAP50=0.8760 mAP50:95=0.6361 NMS=2.313ms Post=3.818ms
+INT8  E5-A  K=500       MAX_DET=300  mAP50=0.8760 mAP50:95=0.6359 NMS=2.914ms Post=4.425ms
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E5_sensitivity_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E5_sensitivity_results.csv

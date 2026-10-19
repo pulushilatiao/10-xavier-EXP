@@ -1,0 +1,118 @@
+OpenCV: 4.5.4-dev
+Images: 24
+Repeats: 3
+Mode: B
+CONF: 0.001
+NMS_IOU: 0.7
+SIGMA: 0.5
+
+============================================================
+Collecting TensorRT outputs: FP16
+============================================================
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=10.453ms
+Collect 2/24 IMG_7317.jpg gpu=10.421ms
+Collect 3/24 IMG_7319.jpg gpu=10.612ms
+Collect 4/24 IMG_7320.jpg gpu=10.491ms
+Collect 5/24 IMG_7328.jpg gpu=10.529ms
+Collect 6/24 IMG_7330.jpg gpu=10.529ms
+Collect 7/24 IMG_7348.jpg gpu=10.425ms
+Collect 8/24 IMG_7350.jpg gpu=10.569ms
+Collect 9/24 IMG_7352.jpg gpu=10.532ms
+Collect 10/24 IMG_7353.jpg gpu=13.701ms
+Collect 11/24 IMG_7354.jpg gpu=16.751ms
+Collect 12/24 IMG_7355.jpg gpu=16.772ms
+Collect 13/24 IMG_7356.jpg gpu=16.790ms
+Collect 14/24 IMG_7357.jpg gpu=16.875ms
+Collect 15/24 IMG_7388.jpg gpu=16.791ms
+Collect 16/24 IMG_7408.jpg gpu=16.728ms
+Collect 17/24 IMG_7410.jpg gpu=16.769ms
+Collect 18/24 IMG_7419.jpg gpu=16.765ms
+Collect 19/24 IMG_7432.jpg gpu=16.770ms
+Collect 20/24 IMG_7435.jpg gpu=16.706ms
+Collect 21/24 IMG_7436.jpg gpu=16.744ms
+Collect 22/24 IMG_7448.jpg gpu=16.762ms
+Collect 23/24 IMG_7452.jpg gpu=16.782ms
+Collect 24/24 IMG_7454.jpg gpu=16.728ms
+PASS: E0 matches original postprocess for all images
+
+Running E5-B K=200 MAX_DET=300
+mAP50=0.9043 mAP50:95=0.6583 NMS=2.523ms Post=4.497ms Capped=0/24
+
+Running E5-B K=200 MAX_DET=1000
+mAP50=0.9043 mAP50:95=0.6583 NMS=2.380ms Post=4.148ms Capped=0/24
+
+Running E5-B K=unlimited MAX_DET=300
+mAP50=0.9040 mAP50:95=0.6576 NMS=5.671ms Post=7.270ms Capped=1/24
+
+Running E5-B K=unlimited MAX_DET=1000
+mAP50=0.9040 mAP50:95=0.6576 NMS=4.979ms Post=6.585ms Capped=0/24
+
+============================================================
+Collecting TensorRT outputs: INT8
+============================================================
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=9.710ms
+Collect 2/24 IMG_7317.jpg gpu=9.600ms
+Collect 3/24 IMG_7319.jpg gpu=9.611ms
+Collect 4/24 IMG_7320.jpg gpu=11.279ms
+Collect 5/24 IMG_7328.jpg gpu=10.572ms
+Collect 6/24 IMG_7330.jpg gpu=9.095ms
+Collect 7/24 IMG_7348.jpg gpu=9.092ms
+Collect 8/24 IMG_7350.jpg gpu=9.138ms
+Collect 9/24 IMG_7352.jpg gpu=9.100ms
+Collect 10/24 IMG_7353.jpg gpu=9.086ms
+Collect 11/24 IMG_7354.jpg gpu=9.087ms
+Collect 12/24 IMG_7355.jpg gpu=9.088ms
+Collect 13/24 IMG_7356.jpg gpu=9.072ms
+Collect 14/24 IMG_7357.jpg gpu=9.085ms
+Collect 15/24 IMG_7388.jpg gpu=10.910ms
+Collect 16/24 IMG_7408.jpg gpu=12.551ms
+Collect 17/24 IMG_7410.jpg gpu=15.235ms
+Collect 18/24 IMG_7419.jpg gpu=15.276ms
+Collect 19/24 IMG_7432.jpg gpu=15.242ms
+Collect 20/24 IMG_7435.jpg gpu=15.262ms
+Collect 21/24 IMG_7436.jpg gpu=15.272ms
+Collect 22/24 IMG_7448.jpg gpu=15.269ms
+Collect 23/24 IMG_7452.jpg gpu=15.255ms
+Collect 24/24 IMG_7454.jpg gpu=15.268ms
+PASS: E0 matches original postprocess for all images
+
+Running E5-B K=200 MAX_DET=300
+mAP50=0.8762 mAP50:95=0.6365 NMS=2.013ms Post=3.659ms Capped=0/24
+
+Running E5-B K=200 MAX_DET=1000
+mAP50=0.8762 mAP50:95=0.6365 NMS=2.047ms Post=3.763ms Capped=0/24
+
+Running E5-B K=unlimited MAX_DET=300
+mAP50=0.8760 mAP50:95=0.6359 NMS=3.041ms Post=4.570ms Capped=0/24
+
+Running E5-B K=unlimited MAX_DET=1000
+mAP50=0.8760 mAP50:95=0.6359 NMS=3.049ms Post=4.572ms Capped=0/24
+
+========================================================================
+E5 FINAL RESULTS
+========================================================================
+FP16  E5-B  K=200       MAX_DET=300  mAP50=0.9043 mAP50:95=0.6583 NMS=2.523ms Post=4.497ms
+FP16  E5-B  K=200       MAX_DET=1000 mAP50=0.9043 mAP50:95=0.6583 NMS=2.380ms Post=4.148ms
+FP16  E5-B  K=unlimited MAX_DET=300  mAP50=0.9040 mAP50:95=0.6576 NMS=5.671ms Post=7.270ms
+FP16  E5-B  K=unlimited MAX_DET=1000 mAP50=0.9040 mAP50:95=0.6576 NMS=4.979ms Post=6.585ms
+INT8  E5-B  K=200       MAX_DET=300  mAP50=0.8762 mAP50:95=0.6365 NMS=2.013ms Post=3.659ms
+INT8  E5-B  K=200       MAX_DET=1000 mAP50=0.8762 mAP50:95=0.6365 NMS=2.047ms Post=3.763ms
+INT8  E5-B  K=unlimited MAX_DET=300  mAP50=0.8760 mAP50:95=0.6359 NMS=3.041ms Post=4.570ms
+INT8  E5-B  K=unlimited MAX_DET=1000 mAP50=0.8760 mAP50:95=0.6359 NMS=3.049ms Post=4.572ms
+
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E5_sensitivity_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E5_sensitivity_results.csv
