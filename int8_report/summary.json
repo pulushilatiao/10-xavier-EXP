@@ -1,0 +1,13 @@
+{
+  "engine_path": "/home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/1012_int8.engine",
+  "total_layers": 168,
+  "known_both_io_datatypes": 0,
+  "classification_counts": {
+    "UNKNOWN": 168
+  },
+  "metadata": {
+    "tensorrt_version": "8.5.3.1",
+    "engine_layers": 168
+  },
+  "critical_note": "Input/output tensor datatypes do not prove internal compute precision."
+}

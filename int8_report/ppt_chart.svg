@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="540" viewBox="0 0 1080 540">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="54" y="70" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#202B37">TensorRT engine: layer I/O datatypes</text>
+<text x="54" y="106" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#53616F">168 optimized layers  |  verified from engine inspector</text>
+<text x="54" y="173" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">INT8 I/O</text>
+<rect x="240" y="152" width="640" height="28" rx="4" fill="#EFF2F5"/>
+<rect x="240" y="152" width="0.0" height="28" rx="4" fill="#2875B9"/>
+<text x="904" y="174" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">0</text>
+<text x="54" y="224" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">FP16 I/O</text>
+<rect x="240" y="203" width="640" height="28" rx="4" fill="#EFF2F5"/>
+<rect x="240" y="203" width="0.0" height="28" rx="4" fill="#208A77"/>
+<text x="904" y="225" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">0</text>
+<text x="54" y="275" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">FP32 I/O</text>
+<rect x="240" y="254" width="640" height="28" rx="4" fill="#EFF2F5"/>
+<rect x="240" y="254" width="0.0" height="28" rx="4" fill="#B0822C"/>
+<text x="904" y="276" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">0</text>
+<text x="54" y="326" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">MIXED I/O</text>
+<rect x="240" y="305" width="640" height="28" rx="4" fill="#EFF2F5"/>
+<rect x="240" y="305" width="0.0" height="28" rx="4" fill="#805DB3"/>
+<text x="904" y="327" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">0</text>
+<text x="54" y="377" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">PARTIAL</text>
+<rect x="240" y="356" width="640" height="28" rx="4" fill="#EFF2F5"/>
+<rect x="240" y="356" width="0.0" height="28" rx="4" fill="#8A94A3"/>
+<text x="904" y="378" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">0</text>
+<text x="54" y="428" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">UNKNOWN</text>
+<rect x="240" y="407" width="640" height="28" rx="4" fill="#EFF2F5"/>
+<rect x="240" y="407" width="640.0" height="28" rx="4" fill="#A0A5AD"/>
+<text x="904" y="429" font-size="20" font-family="DejaVu Sans, sans-serif" fill="#253340">168</text>
+<text x="54" y="494" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#6A7682">I/O datatype is NOT proof of internal computation precision.</text>
+</svg>

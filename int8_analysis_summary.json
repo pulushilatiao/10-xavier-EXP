@@ -1,0 +1,19 @@
+{
+  "engine": "/home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/1012_int8.engine",
+  "tensorrt_version": "8.5.3.1",
+  "layer_count": 168,
+  "input_output_type_counts": [
+    {
+      "input_types": "UNKNOWN",
+      "output_types": "UNKNOWN",
+      "count": 168
+    }
+  ],
+  "interpretation_limits": [
+    "These are engine layers, not necessarily original YOLOv8 modules.",
+    "I/O datatype alone does not establish the internal arithmetic precision.",
+    "UNKNOWN means the needed metadata is unavailable, not FP32.",
+    "Fused layers may combine Conv, BatchNorm, and SiLU.",
+    "Layer count does not measure compute share or runtime."
+  ]
+}

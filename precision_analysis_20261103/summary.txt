@@ -1,0 +1,22 @@
+TensorRT Layer Precision Analysis
+
+Total inspected layers: 145
+
+I/O datatype classification:
+INT8: 107
+FP16: 7
+FP32: 19
+INT32: 0
+MIXED: 12
+UNKNOWN: 0
+
+Layer categories:
+Convolution: 61
+Reformat: 42
+Pointwise: 22
+Other: 10
+Shuffle/Reshape: 9
+Softmax: 1
+
+SiLU-related names: 58
+Conv+SiLU fused names: 39
