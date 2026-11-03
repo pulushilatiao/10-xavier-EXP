@@ -1,0 +1,92 @@
+
+Collecting: FP16
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=7.451ms
+Collect 2/24 IMG_7317.jpg gpu=7.393ms
+Collect 3/24 IMG_7319.jpg gpu=7.393ms
+Collect 4/24 IMG_7320.jpg gpu=7.426ms
+Collect 5/24 IMG_7328.jpg gpu=7.454ms
+Collect 6/24 IMG_7330.jpg gpu=7.438ms
+Collect 7/24 IMG_7348.jpg gpu=7.366ms
+Collect 8/24 IMG_7350.jpg gpu=7.496ms
+Collect 9/24 IMG_7352.jpg gpu=7.537ms
+Collect 10/24 IMG_7353.jpg gpu=7.406ms
+Collect 11/24 IMG_7354.jpg gpu=7.384ms
+Collect 12/24 IMG_7355.jpg gpu=7.356ms
+Collect 13/24 IMG_7356.jpg gpu=7.365ms
+Collect 14/24 IMG_7357.jpg gpu=7.427ms
+Collect 15/24 IMG_7388.jpg gpu=7.356ms
+Collect 16/24 IMG_7408.jpg gpu=7.361ms
+Collect 17/24 IMG_7410.jpg gpu=7.343ms
+Collect 18/24 IMG_7419.jpg gpu=7.374ms
+Collect 19/24 IMG_7432.jpg gpu=7.369ms
+Collect 20/24 IMG_7435.jpg gpu=7.370ms
+Collect 21/24 IMG_7436.jpg gpu=8.311ms
+Collect 22/24 IMG_7448.jpg gpu=7.422ms
+Collect 23/24 IMG_7452.jpg gpu=7.390ms
+Collect 24/24 IMG_7454.jpg gpu=7.616ms
+PASS: E0 matches original postprocess for all images
+PASS: E6-B TopK50 matches E5
+FP16    Unlimited    mAP50:95=0.6576 Candidates=1052.7 Post=7.057ms
+FP16    TopK40       mAP50:95=0.6614 Candidates=120.0 Post=2.689ms
+FP16    TopK50       mAP50:95=0.6633 Candidates=150.0 Post=2.579ms
+FP16    Conf0.005    mAP50:95=0.6611 Candidates=219.6 Post=2.770ms
+FP16    Conf0.01     mAP50:95=0.6632 Candidates=160.2 Post=2.425ms
+FP16    Conf0.02     mAP50:95=0.6648 Candidates=126.9 Post=2.313ms
+FP16    Conf0.05     mAP50:95=0.6666 Candidates=100.2 Post=2.157ms
+FP16    Conf0.10     mAP50:95=0.6676 Candidates=83.9 Post=2.101ms
+FP16    Conf0.20     mAP50:95=0.6698 Candidates=69.1 Post=1.986ms
+
+Collecting: INT8
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=6.748ms
+Collect 2/24 IMG_7317.jpg gpu=6.668ms
+Collect 3/24 IMG_7319.jpg gpu=6.701ms
+Collect 4/24 IMG_7320.jpg gpu=6.947ms
+Collect 5/24 IMG_7328.jpg gpu=6.712ms
+Collect 6/24 IMG_7330.jpg gpu=6.733ms
+Collect 7/24 IMG_7348.jpg gpu=6.696ms
+Collect 8/24 IMG_7350.jpg gpu=6.719ms
+Collect 9/24 IMG_7352.jpg gpu=6.844ms
+Collect 10/24 IMG_7353.jpg gpu=7.002ms
+Collect 11/24 IMG_7354.jpg gpu=6.706ms
+Collect 12/24 IMG_7355.jpg gpu=6.748ms
+Collect 13/24 IMG_7356.jpg gpu=6.737ms
+Collect 14/24 IMG_7357.jpg gpu=6.696ms
+Collect 15/24 IMG_7388.jpg gpu=6.747ms
+Collect 16/24 IMG_7408.jpg gpu=6.675ms
+Collect 17/24 IMG_7410.jpg gpu=6.694ms
+Collect 18/24 IMG_7419.jpg gpu=6.693ms
+Collect 19/24 IMG_7432.jpg gpu=6.680ms
+Collect 20/24 IMG_7435.jpg gpu=6.692ms
+Collect 21/24 IMG_7436.jpg gpu=6.749ms
+Collect 22/24 IMG_7448.jpg gpu=6.758ms
+Collect 23/24 IMG_7452.jpg gpu=6.698ms
+Collect 24/24 IMG_7454.jpg gpu=6.747ms
+PASS: E0 matches original postprocess for all images
+PASS: E6-B TopK50 matches E5
+INT8    Unlimited    mAP50:95=0.6359 Candidates=913.1 Post=4.678ms
+INT8    TopK40       mAP50:95=0.6421 Candidates=120.0 Post=2.271ms
+INT8    TopK50       mAP50:95=0.6405 Candidates=150.0 Post=2.289ms
+INT8    Conf0.005    mAP50:95=0.6399 Candidates=214.9 Post=2.435ms
+INT8    Conf0.01     mAP50:95=0.6416 Candidates=155.6 Post=2.118ms
+INT8    Conf0.02     mAP50:95=0.6427 Candidates=120.0 Post=2.013ms
+INT8    Conf0.05     mAP50:95=0.6454 Candidates=88.8 Post=1.909ms
+INT8    Conf0.10     mAP50:95=0.6471 Candidates=70.4 Post=1.921ms
+INT8    Conf0.20     mAP50:95=0.6360 Candidates=56.4 Post=1.788ms
+
+E6-B COMPLETED
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6B_confidence_threshold_results.json
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6B_confidence_threshold_results.csv

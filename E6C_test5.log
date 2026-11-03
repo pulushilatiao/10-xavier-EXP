@@ -1,0 +1,48 @@
+
+Collecting: FP16
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=7.397ms
+Collect 2/5 IMG_7317.jpg gpu=7.816ms
+Collect 3/5 IMG_7319.jpg gpu=7.426ms
+Collect 4/5 IMG_7320.jpg gpu=7.388ms
+Collect 5/5 IMG_7328.jpg gpu=7.415ms
+PASS: E0 matches original postprocess for all images
+FP16 / K10  mAP50=0.7869 mAP50:95=0.6426
+FP16 / K30  mAP50=0.8024 mAP50:95=0.6489
+FP16 / K40  mAP50=0.8152 mAP50:95=0.6598
+FP16 / K50  mAP50=0.8276 mAP50:95=0.6691
+FP16 / K200  mAP50=0.8249 mAP50:95=0.6644
+FP16 / Unlimited  mAP50=0.8244 mAP50:95=0.6638
+
+Collecting: INT8
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/5 IMG_7314.jpg gpu=10.562ms
+Collect 2/5 IMG_7317.jpg gpu=6.735ms
+Collect 3/5 IMG_7319.jpg gpu=6.734ms
+Collect 4/5 IMG_7320.jpg gpu=6.803ms
+Collect 5/5 IMG_7328.jpg gpu=6.738ms
+PASS: E0 matches original postprocess for all images
+INT8 / K10  mAP50=0.7729 mAP50:95=0.6464
+INT8 / K30  mAP50=0.8140 mAP50:95=0.6600
+INT8 / K40  mAP50=0.8451 mAP50:95=0.6829
+INT8 / K50  mAP50=0.8448 mAP50:95=0.6825
+INT8 / K200  mAP50=0.8417 mAP50:95=0.6779
+INT8 / Unlimited  mAP50=0.8414 mAP50:95=0.6775
+
+E6-C COMPLETED
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_AP_mechanism_summary.csv
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_precision_recall_points.csv
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_image_errors.csv
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_AP_mechanism.json

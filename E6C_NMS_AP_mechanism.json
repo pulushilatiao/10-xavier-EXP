@@ -1,0 +1,2286 @@
+{
+  "FP16": {
+    "K10": {
+      "metrics": {
+        "mAP50": 0.8257850900959021,
+        "mAP50_95": 0.6251773387756956,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.8531069785672989,
+            "AP50_95": 0.6781481509262746
+          },
+          "leaf": {
+            "AP50": 0.7439194716043533,
+            "AP50_95": 0.593165918800134
+          },
+          "stem": {
+            "AP50": 0.8803288201160542,
+            "AP50_95": 0.6042179466006786
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 1164,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 845,
+          "after_topk": 30,
+          "after_nms": 19,
+          "kept": 19
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 1125,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1120,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 821,
+          "after_topk": 30,
+          "after_nms": 17,
+          "kept": 17
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1155,
+          "after_topk": 30,
+          "after_nms": 18,
+          "kept": 18
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 1135,
+          "after_topk": 30,
+          "after_nms": 18,
+          "kept": 18
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1225,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 970,
+          "after_topk": 30,
+          "after_nms": 22,
+          "kept": 22
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 927,
+          "after_topk": 30,
+          "after_nms": 26,
+          "kept": 26
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 802,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 1033,
+          "after_topk": 30,
+          "after_nms": 26,
+          "kept": 26
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 822,
+          "after_topk": 30,
+          "after_nms": 21,
+          "kept": 21
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 906,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 1089,
+          "after_topk": 30,
+          "after_nms": 25,
+          "kept": 25
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 1154,
+          "after_topk": 30,
+          "after_nms": 28,
+          "kept": 28
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 1145,
+          "after_topk": 30,
+          "after_nms": 25,
+          "kept": 25
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1308,
+          "after_topk": 30,
+          "after_nms": 22,
+          "kept": 22
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 868,
+          "after_topk": 30,
+          "after_nms": 21,
+          "kept": 21
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 951,
+          "after_topk": 30,
+          "after_nms": 18,
+          "kept": 18
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1317,
+          "after_topk": 30,
+          "after_nms": 27,
+          "kept": 27
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 1024,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 1125,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 1233,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        }
+      ]
+    },
+    "K30": {
+      "metrics": {
+        "mAP50": 0.8970987611143263,
+        "mAP50_95": 0.658298378896866,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9447331369864143,
+            "AP50_95": 0.7288091769203925
+          },
+          "leaf": {
+            "AP50": 0.8692102051800938,
+            "AP50_95": 0.6499981305480358
+          },
+          "stem": {
+            "AP50": 0.8773529411764706,
+            "AP50_95": 0.59608782922217
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 1164,
+          "after_topk": 90,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 845,
+          "after_topk": 90,
+          "after_nms": 28,
+          "kept": 28
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 1125,
+          "after_topk": 90,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1120,
+          "after_topk": 90,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 821,
+          "after_topk": 90,
+          "after_nms": 32,
+          "kept": 32
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1155,
+          "after_topk": 90,
+          "after_nms": 36,
+          "kept": 36
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 1135,
+          "after_topk": 90,
+          "after_nms": 40,
+          "kept": 40
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1225,
+          "after_topk": 90,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 970,
+          "after_topk": 90,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 927,
+          "after_topk": 90,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 802,
+          "after_topk": 90,
+          "after_nms": 38,
+          "kept": 38
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 1033,
+          "after_topk": 90,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 822,
+          "after_topk": 90,
+          "after_nms": 35,
+          "kept": 35
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 906,
+          "after_topk": 90,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 1089,
+          "after_topk": 90,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 1154,
+          "after_topk": 90,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 1145,
+          "after_topk": 90,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1308,
+          "after_topk": 90,
+          "after_nms": 44,
+          "kept": 44
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 868,
+          "after_topk": 90,
+          "after_nms": 38,
+          "kept": 38
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 951,
+          "after_topk": 90,
+          "after_nms": 36,
+          "kept": 36
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1317,
+          "after_topk": 90,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 1024,
+          "after_topk": 90,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 1125,
+          "after_topk": 90,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 1233,
+          "after_topk": 90,
+          "after_nms": 44,
+          "kept": 44
+        }
+      ]
+    },
+    "K40": {
+      "metrics": {
+        "mAP50": 0.9020109727049032,
+        "mAP50_95": 0.66136536503477,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.961564372952361,
+            "AP50_95": 0.7404526207483891
+          },
+          "leaf": {
+            "AP50": 0.8678460286060572,
+            "AP50_95": 0.6481783337416125
+          },
+          "stem": {
+            "AP50": 0.8766225165562914,
+            "AP50_95": 0.5954651406143083
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 1164,
+          "after_topk": 120,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 845,
+          "after_topk": 120,
+          "after_nms": 34,
+          "kept": 34
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 1125,
+          "after_topk": 120,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1120,
+          "after_topk": 120,
+          "after_nms": 50,
+          "kept": 50
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 821,
+          "after_topk": 120,
+          "after_nms": 38,
+          "kept": 38
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1155,
+          "after_topk": 120,
+          "after_nms": 44,
+          "kept": 44
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 1135,
+          "after_topk": 120,
+          "after_nms": 50,
+          "kept": 50
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1225,
+          "after_topk": 120,
+          "after_nms": 59,
+          "kept": 59
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 970,
+          "after_topk": 120,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 927,
+          "after_topk": 120,
+          "after_nms": 54,
+          "kept": 54
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 802,
+          "after_topk": 120,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 1033,
+          "after_topk": 120,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 822,
+          "after_topk": 120,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 906,
+          "after_topk": 120,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 1089,
+          "after_topk": 120,
+          "after_nms": 51,
+          "kept": 51
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 1154,
+          "after_topk": 120,
+          "after_nms": 51,
+          "kept": 51
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 1145,
+          "after_topk": 120,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1308,
+          "after_topk": 120,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 868,
+          "after_topk": 120,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 951,
+          "after_topk": 120,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1317,
+          "after_topk": 120,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 1024,
+          "after_topk": 120,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 1125,
+          "after_topk": 120,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 1233,
+          "after_topk": 120,
+          "after_nms": 48,
+          "kept": 48
+        }
+      ]
+    },
+    "K50": {
+      "metrics": {
+        "mAP50": 0.9051632225478287,
+        "mAP50_95": 0.6632769827172494,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9691892743064532,
+            "AP50_95": 0.746462275170091
+          },
+          "leaf": {
+            "AP50": 0.8700503933370329,
+            "AP50_95": 0.6482086554876025
+          },
+          "stem": {
+            "AP50": 0.87625,
+            "AP50_95": 0.5951600174940547
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 1164,
+          "after_topk": 150,
+          "after_nms": 52,
+          "kept": 52
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 845,
+          "after_topk": 150,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 1125,
+          "after_topk": 150,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1120,
+          "after_topk": 150,
+          "after_nms": 58,
+          "kept": 58
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 821,
+          "after_topk": 150,
+          "after_nms": 44,
+          "kept": 44
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1155,
+          "after_topk": 150,
+          "after_nms": 50,
+          "kept": 50
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 1135,
+          "after_topk": 150,
+          "after_nms": 59,
+          "kept": 59
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1225,
+          "after_topk": 150,
+          "after_nms": 65,
+          "kept": 65
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 970,
+          "after_topk": 150,
+          "after_nms": 56,
+          "kept": 56
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 927,
+          "after_topk": 150,
+          "after_nms": 57,
+          "kept": 57
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 802,
+          "after_topk": 150,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 1033,
+          "after_topk": 150,
+          "after_nms": 54,
+          "kept": 54
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 822,
+          "after_topk": 150,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 906,
+          "after_topk": 150,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 1089,
+          "after_topk": 150,
+          "after_nms": 54,
+          "kept": 54
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 1154,
+          "after_topk": 150,
+          "after_nms": 53,
+          "kept": 53
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 1145,
+          "after_topk": 150,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1308,
+          "after_topk": 150,
+          "after_nms": 54,
+          "kept": 54
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 868,
+          "after_topk": 150,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 951,
+          "after_topk": 150,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1317,
+          "after_topk": 150,
+          "after_nms": 54,
+          "kept": 54
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 1024,
+          "after_topk": 150,
+          "after_nms": 52,
+          "kept": 52
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 1125,
+          "after_topk": 150,
+          "after_nms": 53,
+          "kept": 53
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 1233,
+          "after_topk": 150,
+          "after_nms": 54,
+          "kept": 54
+        }
+      ]
+    },
+    "K200": {
+      "metrics": {
+        "mAP50": 0.9043091995831142,
+        "mAP50_95": 0.6583361487705879,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9722195534007134,
+            "AP50_95": 0.742726698907555
+          },
+          "leaf": {
+            "AP50": 0.8647908855853155,
+            "AP50_95": 0.6382348734626025
+          },
+          "stem": {
+            "AP50": 0.8759171597633136,
+            "AP50_95": 0.5940468739416062
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 1164,
+          "after_topk": 489,
+          "after_nms": 124,
+          "kept": 124
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 845,
+          "after_topk": 543,
+          "after_nms": 94,
+          "kept": 94
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 1125,
+          "after_topk": 560,
+          "after_nms": 126,
+          "kept": 126
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1120,
+          "after_topk": 600,
+          "after_nms": 151,
+          "kept": 151
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 821,
+          "after_topk": 548,
+          "after_nms": 95,
+          "kept": 95
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1155,
+          "after_topk": 572,
+          "after_nms": 127,
+          "kept": 127
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 1135,
+          "after_topk": 545,
+          "after_nms": 146,
+          "kept": 146
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1225,
+          "after_topk": 572,
+          "after_nms": 166,
+          "kept": 166
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 970,
+          "after_topk": 521,
+          "after_nms": 127,
+          "kept": 127
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 927,
+          "after_topk": 524,
+          "after_nms": 122,
+          "kept": 122
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 802,
+          "after_topk": 520,
+          "after_nms": 112,
+          "kept": 112
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 1033,
+          "after_topk": 482,
+          "after_nms": 118,
+          "kept": 118
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 822,
+          "after_topk": 582,
+          "after_nms": 98,
+          "kept": 98
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 906,
+          "after_topk": 552,
+          "after_nms": 124,
+          "kept": 124
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 1089,
+          "after_topk": 560,
+          "after_nms": 149,
+          "kept": 149
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 1154,
+          "after_topk": 573,
+          "after_nms": 154,
+          "kept": 154
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 1145,
+          "after_topk": 593,
+          "after_nms": 143,
+          "kept": 143
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1308,
+          "after_topk": 575,
+          "after_nms": 149,
+          "kept": 149
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 868,
+          "after_topk": 525,
+          "after_nms": 89,
+          "kept": 89
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 951,
+          "after_topk": 452,
+          "after_nms": 102,
+          "kept": 102
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1317,
+          "after_topk": 600,
+          "after_nms": 202,
+          "kept": 202
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 1024,
+          "after_topk": 514,
+          "after_nms": 124,
+          "kept": 124
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 1125,
+          "after_topk": 480,
+          "after_nms": 123,
+          "kept": 123
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 1233,
+          "after_topk": 489,
+          "after_nms": 125,
+          "kept": 125
+        }
+      ]
+    },
+    "Unlimited": {
+      "metrics": {
+        "mAP50": 0.9039738660569911,
+        "mAP50_95": 0.657590059680149,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9722195534007134,
+            "AP50_95": 0.7423753328418207
+          },
+          "leaf": {
+            "AP50": 0.8637848850069465,
+            "AP50_95": 0.6363317204858217
+          },
+          "stem": {
+            "AP50": 0.8759171597633136,
+            "AP50_95": 0.5940631257128046
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 1164,
+          "after_topk": 1164,
+          "after_nms": 227,
+          "kept": 227
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 845,
+          "after_topk": 845,
+          "after_nms": 107,
+          "kept": 107
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 1125,
+          "after_topk": 1125,
+          "after_nms": 191,
+          "kept": 191
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1120,
+          "after_topk": 1120,
+          "after_nms": 220,
+          "kept": 220
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 821,
+          "after_topk": 821,
+          "after_nms": 110,
+          "kept": 110
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1155,
+          "after_topk": 1155,
+          "after_nms": 196,
+          "kept": 196
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 1135,
+          "after_topk": 1135,
+          "after_nms": 207,
+          "kept": 207
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1225,
+          "after_topk": 1225,
+          "after_nms": 253,
+          "kept": 253
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 970,
+          "after_topk": 970,
+          "after_nms": 177,
+          "kept": 177
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 927,
+          "after_topk": 927,
+          "after_nms": 162,
+          "kept": 162
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 802,
+          "after_topk": 802,
+          "after_nms": 133,
+          "kept": 133
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 1033,
+          "after_topk": 1033,
+          "after_nms": 189,
+          "kept": 189
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 822,
+          "after_topk": 822,
+          "after_nms": 113,
+          "kept": 113
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 906,
+          "after_topk": 906,
+          "after_nms": 155,
+          "kept": 155
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 1089,
+          "after_topk": 1089,
+          "after_nms": 220,
+          "kept": 220
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 1154,
+          "after_topk": 1154,
+          "after_nms": 257,
+          "kept": 257
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 1145,
+          "after_topk": 1145,
+          "after_nms": 235,
+          "kept": 235
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1308,
+          "after_topk": 1308,
+          "after_nms": 287,
+          "kept": 287
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 868,
+          "after_topk": 868,
+          "after_nms": 103,
+          "kept": 103
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 951,
+          "after_topk": 951,
+          "after_nms": 161,
+          "kept": 161
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1317,
+          "after_topk": 1317,
+          "after_nms": 383,
+          "kept": 300
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 1024,
+          "after_topk": 1024,
+          "after_nms": 197,
+          "kept": 197
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 1125,
+          "after_topk": 1125,
+          "after_nms": 208,
+          "kept": 208
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 1233,
+          "after_topk": 1233,
+          "after_nms": 246,
+          "kept": 246
+        }
+      ]
+    }
+  },
+  "INT8": {
+    "K10": {
+      "metrics": {
+        "mAP50": 0.8015647029477755,
+        "mAP50_95": 0.6021665978145253,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.8180096654131465,
+            "AP50_95": 0.6302654458305547
+          },
+          "leaf": {
+            "AP50": 0.7463186637849888,
+            "AP50_95": 0.5777102551705701
+          },
+          "stem": {
+            "AP50": 0.8403657796451913,
+            "AP50_95": 0.5985240924424511
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 926,
+          "after_topk": 30,
+          "after_nms": 21,
+          "kept": 21
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 925,
+          "after_topk": 30,
+          "after_nms": 19,
+          "kept": 19
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 954,
+          "after_topk": 30,
+          "after_nms": 25,
+          "kept": 25
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1022,
+          "after_topk": 30,
+          "after_nms": 23,
+          "kept": 23
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 897,
+          "after_topk": 30,
+          "after_nms": 17,
+          "kept": 17
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1010,
+          "after_topk": 30,
+          "after_nms": 18,
+          "kept": 18
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 860,
+          "after_topk": 30,
+          "after_nms": 17,
+          "kept": 17
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1004,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 863,
+          "after_topk": 30,
+          "after_nms": 22,
+          "kept": 22
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 789,
+          "after_topk": 30,
+          "after_nms": 22,
+          "kept": 22
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 720,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 893,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 910,
+          "after_topk": 30,
+          "after_nms": 20,
+          "kept": 20
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 749,
+          "after_topk": 30,
+          "after_nms": 22,
+          "kept": 22
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 928,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 923,
+          "after_topk": 30,
+          "after_nms": 29,
+          "kept": 29
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 881,
+          "after_topk": 30,
+          "after_nms": 25,
+          "kept": 25
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1115,
+          "after_topk": 30,
+          "after_nms": 21,
+          "kept": 21
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 947,
+          "after_topk": 30,
+          "after_nms": 20,
+          "kept": 20
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 813,
+          "after_topk": 30,
+          "after_nms": 21,
+          "kept": 21
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1000,
+          "after_topk": 30,
+          "after_nms": 26,
+          "kept": 26
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 927,
+          "after_topk": 30,
+          "after_nms": 25,
+          "kept": 25
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 872,
+          "after_topk": 30,
+          "after_nms": 26,
+          "kept": 26
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 986,
+          "after_topk": 30,
+          "after_nms": 24,
+          "kept": 24
+        }
+      ]
+    },
+    "K30": {
+      "metrics": {
+        "mAP50": 0.861523654900377,
+        "mAP50_95": 0.6346524413113684,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.914095692539203,
+            "AP50_95": 0.6954658877407942
+          },
+          "leaf": {
+            "AP50": 0.8461028025263003,
+            "AP50_95": 0.6249143928027661
+          },
+          "stem": {
+            "AP50": 0.8243724696356278,
+            "AP50_95": 0.5835770433905447
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 926,
+          "after_topk": 90,
+          "after_nms": 36,
+          "kept": 36
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 925,
+          "after_topk": 90,
+          "after_nms": 29,
+          "kept": 29
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 954,
+          "after_topk": 90,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1022,
+          "after_topk": 90,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 897,
+          "after_topk": 90,
+          "after_nms": 36,
+          "kept": 36
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1010,
+          "after_topk": 90,
+          "after_nms": 32,
+          "kept": 32
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 860,
+          "after_topk": 90,
+          "after_nms": 31,
+          "kept": 31
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1004,
+          "after_topk": 90,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 863,
+          "after_topk": 90,
+          "after_nms": 40,
+          "kept": 40
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 789,
+          "after_topk": 90,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 720,
+          "after_topk": 90,
+          "after_nms": 38,
+          "kept": 38
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 893,
+          "after_topk": 90,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 910,
+          "after_topk": 90,
+          "after_nms": 38,
+          "kept": 38
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 749,
+          "after_topk": 90,
+          "after_nms": 34,
+          "kept": 34
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 928,
+          "after_topk": 90,
+          "after_nms": 44,
+          "kept": 44
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 923,
+          "after_topk": 90,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 881,
+          "after_topk": 90,
+          "after_nms": 36,
+          "kept": 36
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1115,
+          "after_topk": 90,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 947,
+          "after_topk": 90,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 813,
+          "after_topk": 90,
+          "after_nms": 37,
+          "kept": 37
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1000,
+          "after_topk": 90,
+          "after_nms": 41,
+          "kept": 41
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 927,
+          "after_topk": 90,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 872,
+          "after_topk": 90,
+          "after_nms": 37,
+          "kept": 37
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 986,
+          "after_topk": 90,
+          "after_nms": 42,
+          "kept": 42
+        }
+      ]
+    },
+    "K40": {
+      "metrics": {
+        "mAP50": 0.8761278512466694,
+        "mAP50_95": 0.6420894821781897,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9521341905651016,
+            "AP50_95": 0.7172684440939033
+          },
+          "leaf": {
+            "AP50": 0.8521857366428227,
+            "AP50_95": 0.6263041504393113
+          },
+          "stem": {
+            "AP50": 0.8240636265320838,
+            "AP50_95": 0.5826958520013552
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 926,
+          "after_topk": 120,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 925,
+          "after_topk": 120,
+          "after_nms": 36,
+          "kept": 36
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 954,
+          "after_topk": 120,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1022,
+          "after_topk": 120,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 897,
+          "after_topk": 120,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1010,
+          "after_topk": 120,
+          "after_nms": 37,
+          "kept": 37
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 860,
+          "after_topk": 120,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1004,
+          "after_topk": 120,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 863,
+          "after_topk": 120,
+          "after_nms": 46,
+          "kept": 46
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 789,
+          "after_topk": 120,
+          "after_nms": 53,
+          "kept": 53
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 720,
+          "after_topk": 120,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 893,
+          "after_topk": 120,
+          "after_nms": 52,
+          "kept": 52
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 910,
+          "after_topk": 120,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 749,
+          "after_topk": 120,
+          "after_nms": 39,
+          "kept": 39
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 928,
+          "after_topk": 120,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 923,
+          "after_topk": 120,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 881,
+          "after_topk": 120,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1115,
+          "after_topk": 120,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 947,
+          "after_topk": 120,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 813,
+          "after_topk": 120,
+          "after_nms": 45,
+          "kept": 45
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1000,
+          "after_topk": 120,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 927,
+          "after_topk": 120,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 872,
+          "after_topk": 120,
+          "after_nms": 42,
+          "kept": 42
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 986,
+          "after_topk": 120,
+          "after_nms": 43,
+          "kept": 43
+        }
+      ]
+    },
+    "K50": {
+      "metrics": {
+        "mAP50": 0.8752572617689319,
+        "mAP50_95": 0.6405352372953954,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9517948701461154,
+            "AP50_95": 0.7155524842276769
+          },
+          "leaf": {
+            "AP50": 0.8501352798223343,
+            "AP50_95": 0.6243662399535912
+          },
+          "stem": {
+            "AP50": 0.823841635338346,
+            "AP50_95": 0.581686987704918
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 926,
+          "after_topk": 150,
+          "after_nms": 53,
+          "kept": 53
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 925,
+          "after_topk": 150,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 954,
+          "after_topk": 150,
+          "after_nms": 47,
+          "kept": 47
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1022,
+          "after_topk": 150,
+          "after_nms": 51,
+          "kept": 51
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 897,
+          "after_topk": 150,
+          "after_nms": 46,
+          "kept": 46
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1010,
+          "after_topk": 150,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 860,
+          "after_topk": 150,
+          "after_nms": 49,
+          "kept": 49
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1004,
+          "after_topk": 150,
+          "after_nms": 56,
+          "kept": 56
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 863,
+          "after_topk": 150,
+          "after_nms": 56,
+          "kept": 56
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 789,
+          "after_topk": 150,
+          "after_nms": 59,
+          "kept": 59
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 720,
+          "after_topk": 150,
+          "after_nms": 46,
+          "kept": 46
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 893,
+          "after_topk": 150,
+          "after_nms": 54,
+          "kept": 54
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 910,
+          "after_topk": 150,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 749,
+          "after_topk": 150,
+          "after_nms": 43,
+          "kept": 43
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 928,
+          "after_topk": 150,
+          "after_nms": 56,
+          "kept": 56
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 923,
+          "after_topk": 150,
+          "after_nms": 57,
+          "kept": 57
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 881,
+          "after_topk": 150,
+          "after_nms": 52,
+          "kept": 52
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1115,
+          "after_topk": 150,
+          "after_nms": 53,
+          "kept": 53
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 947,
+          "after_topk": 150,
+          "after_nms": 46,
+          "kept": 46
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 813,
+          "after_topk": 150,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1000,
+          "after_topk": 150,
+          "after_nms": 50,
+          "kept": 50
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 927,
+          "after_topk": 150,
+          "after_nms": 52,
+          "kept": 52
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 872,
+          "after_topk": 150,
+          "after_nms": 48,
+          "kept": 48
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 986,
+          "after_topk": 150,
+          "after_nms": 45,
+          "kept": 45
+        }
+      ]
+    },
+    "K200": {
+      "metrics": {
+        "mAP50": 0.8761643889060889,
+        "mAP50_95": 0.6365026681640702,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9551075380778501,
+            "AP50_95": 0.7115709476152878
+          },
+          "leaf": {
+            "AP50": 0.8501963120653973,
+            "AP50_95": 0.6169782863963078
+          },
+          "stem": {
+            "AP50": 0.8231893165750197,
+            "AP50_95": 0.5809587704806148
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 926,
+          "after_topk": 488,
+          "after_nms": 100,
+          "kept": 100
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 925,
+          "after_topk": 585,
+          "after_nms": 95,
+          "kept": 95
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 954,
+          "after_topk": 555,
+          "after_nms": 117,
+          "kept": 117
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1022,
+          "after_topk": 600,
+          "after_nms": 118,
+          "kept": 118
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 897,
+          "after_topk": 596,
+          "after_nms": 103,
+          "kept": 103
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1010,
+          "after_topk": 558,
+          "after_nms": 109,
+          "kept": 109
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 860,
+          "after_topk": 546,
+          "after_nms": 114,
+          "kept": 114
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1004,
+          "after_topk": 576,
+          "after_nms": 128,
+          "kept": 128
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 863,
+          "after_topk": 534,
+          "after_nms": 101,
+          "kept": 101
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 789,
+          "after_topk": 578,
+          "after_nms": 98,
+          "kept": 98
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 720,
+          "after_topk": 530,
+          "after_nms": 91,
+          "kept": 91
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 893,
+          "after_topk": 510,
+          "after_nms": 96,
+          "kept": 96
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 910,
+          "after_topk": 569,
+          "after_nms": 91,
+          "kept": 91
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 749,
+          "after_topk": 540,
+          "after_nms": 82,
+          "kept": 82
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 928,
+          "after_topk": 554,
+          "after_nms": 111,
+          "kept": 111
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 923,
+          "after_topk": 600,
+          "after_nms": 114,
+          "kept": 114
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 881,
+          "after_topk": 563,
+          "after_nms": 103,
+          "kept": 103
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1115,
+          "after_topk": 589,
+          "after_nms": 116,
+          "kept": 116
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 947,
+          "after_topk": 600,
+          "after_nms": 90,
+          "kept": 90
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 813,
+          "after_topk": 468,
+          "after_nms": 99,
+          "kept": 99
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1000,
+          "after_topk": 564,
+          "after_nms": 121,
+          "kept": 121
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 927,
+          "after_topk": 538,
+          "after_nms": 110,
+          "kept": 110
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 872,
+          "after_topk": 485,
+          "after_nms": 99,
+          "kept": 99
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 986,
+          "after_topk": 466,
+          "after_nms": 98,
+          "kept": 98
+        }
+      ]
+    },
+    "Unlimited": {
+      "metrics": {
+        "mAP50": 0.87596344312075,
+        "mAP50_95": 0.6358854519959961,
+        "per_class": {
+          "tomato": {
+            "AP50": 0.9551075380778501,
+            "AP50_95": 0.7114239786171704
+          },
+          "leaf": {
+            "AP50": 0.849608181306687,
+            "AP50_95": 0.615297610275193
+          },
+          "stem": {
+            "AP50": 0.823174609977713,
+            "AP50_95": 0.5809347670956246
+          }
+        }
+      },
+      "candidate_counts": [
+        {
+          "image": "IMG_7314.jpg",
+          "before": 926,
+          "after_topk": 926,
+          "after_nms": 124,
+          "kept": 124
+        },
+        {
+          "image": "IMG_7317.jpg",
+          "before": 925,
+          "after_topk": 925,
+          "after_nms": 106,
+          "kept": 106
+        },
+        {
+          "image": "IMG_7319.jpg",
+          "before": 954,
+          "after_topk": 954,
+          "after_nms": 143,
+          "kept": 143
+        },
+        {
+          "image": "IMG_7320.jpg",
+          "before": 1022,
+          "after_topk": 1022,
+          "after_nms": 144,
+          "kept": 144
+        },
+        {
+          "image": "IMG_7328.jpg",
+          "before": 897,
+          "after_topk": 897,
+          "after_nms": 107,
+          "kept": 107
+        },
+        {
+          "image": "IMG_7330.jpg",
+          "before": 1010,
+          "after_topk": 1010,
+          "after_nms": 131,
+          "kept": 131
+        },
+        {
+          "image": "IMG_7348.jpg",
+          "before": 860,
+          "after_topk": 860,
+          "after_nms": 129,
+          "kept": 129
+        },
+        {
+          "image": "IMG_7350.jpg",
+          "before": 1004,
+          "after_topk": 1004,
+          "after_nms": 160,
+          "kept": 160
+        },
+        {
+          "image": "IMG_7352.jpg",
+          "before": 863,
+          "after_topk": 863,
+          "after_nms": 118,
+          "kept": 118
+        },
+        {
+          "image": "IMG_7353.jpg",
+          "before": 789,
+          "after_topk": 789,
+          "after_nms": 109,
+          "kept": 109
+        },
+        {
+          "image": "IMG_7354.jpg",
+          "before": 720,
+          "after_topk": 720,
+          "after_nms": 98,
+          "kept": 98
+        },
+        {
+          "image": "IMG_7355.jpg",
+          "before": 893,
+          "after_topk": 893,
+          "after_nms": 120,
+          "kept": 120
+        },
+        {
+          "image": "IMG_7356.jpg",
+          "before": 910,
+          "after_topk": 910,
+          "after_nms": 102,
+          "kept": 102
+        },
+        {
+          "image": "IMG_7357.jpg",
+          "before": 749,
+          "after_topk": 749,
+          "after_nms": 85,
+          "kept": 85
+        },
+        {
+          "image": "IMG_7388.jpg",
+          "before": 928,
+          "after_topk": 928,
+          "after_nms": 132,
+          "kept": 132
+        },
+        {
+          "image": "IMG_7408.jpg",
+          "before": 923,
+          "after_topk": 923,
+          "after_nms": 136,
+          "kept": 136
+        },
+        {
+          "image": "IMG_7410.jpg",
+          "before": 881,
+          "after_topk": 881,
+          "after_nms": 123,
+          "kept": 123
+        },
+        {
+          "image": "IMG_7419.jpg",
+          "before": 1115,
+          "after_topk": 1115,
+          "after_nms": 153,
+          "kept": 153
+        },
+        {
+          "image": "IMG_7432.jpg",
+          "before": 947,
+          "after_topk": 947,
+          "after_nms": 100,
+          "kept": 100
+        },
+        {
+          "image": "IMG_7435.jpg",
+          "before": 813,
+          "after_topk": 813,
+          "after_nms": 112,
+          "kept": 112
+        },
+        {
+          "image": "IMG_7436.jpg",
+          "before": 1000,
+          "after_topk": 1000,
+          "after_nms": 146,
+          "kept": 146
+        },
+        {
+          "image": "IMG_7448.jpg",
+          "before": 927,
+          "after_topk": 927,
+          "after_nms": 137,
+          "kept": 137
+        },
+        {
+          "image": "IMG_7452.jpg",
+          "before": 872,
+          "after_topk": 872,
+          "after_nms": 112,
+          "kept": 112
+        },
+        {
+          "image": "IMG_7454.jpg",
+          "before": 986,
+          "after_topk": 986,
+          "after_nms": 130,
+          "kept": 130
+        }
+      ]
+    }
+  }
+}

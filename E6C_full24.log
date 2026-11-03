@@ -1,0 +1,86 @@
+
+Collecting: FP16
+
+Loading: FP16
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=7.491ms
+Collect 2/24 IMG_7317.jpg gpu=7.468ms
+Collect 3/24 IMG_7319.jpg gpu=7.463ms
+Collect 4/24 IMG_7320.jpg gpu=7.405ms
+Collect 5/24 IMG_7328.jpg gpu=7.394ms
+Collect 6/24 IMG_7330.jpg gpu=7.412ms
+Collect 7/24 IMG_7348.jpg gpu=7.449ms
+Collect 8/24 IMG_7350.jpg gpu=7.438ms
+Collect 9/24 IMG_7352.jpg gpu=7.478ms
+Collect 10/24 IMG_7353.jpg gpu=7.469ms
+Collect 11/24 IMG_7354.jpg gpu=7.493ms
+Collect 12/24 IMG_7355.jpg gpu=10.275ms
+Collect 13/24 IMG_7356.jpg gpu=7.469ms
+Collect 14/24 IMG_7357.jpg gpu=7.394ms
+Collect 15/24 IMG_7388.jpg gpu=8.287ms
+Collect 16/24 IMG_7408.jpg gpu=7.461ms
+Collect 17/24 IMG_7410.jpg gpu=7.440ms
+Collect 18/24 IMG_7419.jpg gpu=7.397ms
+Collect 19/24 IMG_7432.jpg gpu=7.408ms
+Collect 20/24 IMG_7435.jpg gpu=7.467ms
+Collect 21/24 IMG_7436.jpg gpu=7.488ms
+Collect 22/24 IMG_7448.jpg gpu=7.534ms
+Collect 23/24 IMG_7452.jpg gpu=7.382ms
+Collect 24/24 IMG_7454.jpg gpu=7.425ms
+PASS: E0 matches original postprocess for all images
+FP16 / K10  mAP50=0.8258 mAP50:95=0.6252
+FP16 / K30  mAP50=0.8971 mAP50:95=0.6583
+FP16 / K40  mAP50=0.9020 mAP50:95=0.6614
+FP16 / K50  mAP50=0.9052 mAP50:95=0.6633
+FP16 / K200  mAP50=0.9043 mAP50:95=0.6583
+FP16 / Unlimited  mAP50=0.9040 mAP50:95=0.6576
+
+Collecting: INT8
+
+Loading: INT8
+INPUT: (1, 3, 640, 640)
+OUTPUT: (1, 7, 8400)
+CLASSES: 3
+INPUT DTYPE: float32
+OUTPUT DTYPE: float32
+Collect 1/24 IMG_7314.jpg gpu=6.818ms
+Collect 2/24 IMG_7317.jpg gpu=6.737ms
+Collect 3/24 IMG_7319.jpg gpu=6.735ms
+Collect 4/24 IMG_7320.jpg gpu=6.802ms
+Collect 5/24 IMG_7328.jpg gpu=7.036ms
+Collect 6/24 IMG_7330.jpg gpu=6.802ms
+Collect 7/24 IMG_7348.jpg gpu=6.722ms
+Collect 8/24 IMG_7350.jpg gpu=6.760ms
+Collect 9/24 IMG_7352.jpg gpu=6.731ms
+Collect 10/24 IMG_7353.jpg gpu=6.746ms
+Collect 11/24 IMG_7354.jpg gpu=6.717ms
+Collect 12/24 IMG_7355.jpg gpu=6.749ms
+Collect 13/24 IMG_7356.jpg gpu=6.690ms
+Collect 14/24 IMG_7357.jpg gpu=6.734ms
+Collect 15/24 IMG_7388.jpg gpu=6.726ms
+Collect 16/24 IMG_7408.jpg gpu=6.731ms
+Collect 17/24 IMG_7410.jpg gpu=6.762ms
+Collect 18/24 IMG_7419.jpg gpu=6.746ms
+Collect 19/24 IMG_7432.jpg gpu=6.737ms
+Collect 20/24 IMG_7435.jpg gpu=6.737ms
+Collect 21/24 IMG_7436.jpg gpu=6.728ms
+Collect 22/24 IMG_7448.jpg gpu=6.750ms
+Collect 23/24 IMG_7452.jpg gpu=6.735ms
+Collect 24/24 IMG_7454.jpg gpu=6.755ms
+PASS: E0 matches original postprocess for all images
+INT8 / K10  mAP50=0.8016 mAP50:95=0.6022
+INT8 / K30  mAP50=0.8615 mAP50:95=0.6347
+INT8 / K40  mAP50=0.8761 mAP50:95=0.6421
+INT8 / K50  mAP50=0.8753 mAP50:95=0.6405
+INT8 / K200  mAP50=0.8762 mAP50:95=0.6365
+INT8 / Unlimited  mAP50=0.8760 mAP50:95=0.6359
+
+E6-C COMPLETED
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_AP_mechanism_summary.csv
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_precision_recall_points.csv
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_image_errors.csv
+Saved: /home/ihpc/Desktop/20261012-NMS_E1_TOPK+Greedy/E6C_NMS_AP_mechanism.json
